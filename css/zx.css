@@ -1,0 +1,550 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 100%;
+	background: red;
+	font-family: "kaiti";
+}
+/* 遮罩层 */
+#zhezhao{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	z-index: 999;
+	background: #2999d6;
+	
+}
+.zhezhao-box{
+	width: 400px;
+	height: 401px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -200px;
+	transition: 1s;
+}
+.zhezhao-box img{
+	width: 400px;
+	height: 401px;
+}
+.zhezhao-txt{
+	width: 510px;
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	margin-left: -255px;
+	text-align: center;
+	opacity: 0;
+	transition: 1s;
+}
+/* 头部 */
+.header{
+	width: 100%;
+	height: 50px;
+	background: url(../img/aboutxiaoniao/beader_bg.jpg)no-repeat top center;
+	position: fixed;
+	z-index: 99;
+}
+.inner{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.header-log{
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-left: 30px;
+}
+.header-nav{
+	width: 680px;
+	height: 50px;
+	float: left;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header-nav li{
+	margin-right: 30px;
+	float: left;
+	color: rgba( 254, 254, 254, 0.702 );
+	line-height: 50px;
+	position: relative;
+}
+.header-nav a{
+	display: block;
+	height: 100%;
+  font-size: 16px;
+  color: rgba( 254, 254, 254, 0.702 );
+}
+.dian{
+	width: 3px;
+	height: 3px;	
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	transition: 0.5s;
+	opacity: 0;
+}
+/* 全屏轮播 */
+.screen-banner{
+	overflow: hidden;
+	position: relative;
+}
+.all-screen{
+	top: 0;
+	position: absolute;
+	transition: top 0.5s;
+}
+.screen-one{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/* banner */
+.banner{
+	background: #221236;
+	overflow: hidden;
+}
+.banner-pic{
+	width: 300px;
+	height: 204px;
+	padding-top: 90px;
+	margin: 20px auto;
+}
+.bnner-txt{
+	width: 556px;
+	height: 275px;
+	margin: 0 auto;
+	text-align: center;
+}
+.bnner-txt h1{
+	margin-top: 20px;
+	font-size: 44px;
+	color: rgb( 254, 254, 254 );
+}
+.banner-txt-p {
+  font-size: 15.98px;
+  font-family: "Arial";
+  color: rgba( 255, 255, 255, 0.8 );
+}
+.banner-txt-pic{
+	width: 510px;
+	height: 90px;
+	margin-left: 20px;
+	position: relative;
+}
+.banner-txt-pic1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.banner-txt-pic2 {
+  font-size: 48px;
+  color: rgb( 254, 254, 254 );
+  line-height: 90px;
+}
+.banner-txt-pic3{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.banner-txt-p1{
+	width: 560px;
+	height: 90px;
+	margin-left: 15px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: rgb( 254, 254, 254 );
+}
+.banner-jiantou{
+	width: 60px;
+	height: 60px;
+	background: url(../img/aboutxiaoniao/donext.png)no-repeat;
+	background-position: 0px -58px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -30px;
+}
+.banner-jiantou:hover{
+	background-position: 0px 2px;
+}
+/* 概述 */
+.gaishu{
+	background: #fff;
+}
+.gaishu-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.gaushu-bigcontent{
+	width: 300%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: 1s;
+}
+.gaishu-content1{
+	float: left;
+	padding: 0px 50px;
+}
+.gaishu-txt{
+	width: 100%;
+	height: 240px;
+}
+.gaishu-txt-p{
+	display: block;
+	font-size: 54px;
+	color: rgb( 49, 24, 89 );
+	padding-top: 70px;
+	text-align: center;
+}
+.gaishu-p2{
+	width: 700px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -350px;
+	position: relative;
+}
+.gaishu-txt-pic1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.gaishu-txt-pic2{
+	width: 610px;
+	font-size: 18px;
+	color: rgb( 107, 106, 111 );
+	line-height: 1.667;
+	text-indent: 2em;
+	margin-left: 45px;
+}
+.gaishu-txt-pic3{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.gaishu-pic{
+	width: 100%;
+	height: 415px;
+	margin-top: 30px;
+}
+.gaishu-pic1{
+	margin-left: 85px;
+}
+.gaishu-pic li{
+	float: left;
+	margin-left: 30px;
+}
+.gaishu-pic li img{
+	height: 380px;
+}
+.gaishu-btn1{
+	width: 58px;
+	height: 74px;
+	background: url(../img/aboutxiaoniao/goleft.png)no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -37px;
+	left: 0px;
+	display: none;
+	z-index: 999;
+}
+.gaishu-btn1:hover{
+	background-position: -58px 0px;
+}
+.gaishu-btn2{
+	width: 58px;
+	height: 74px;
+	background: url(../img/aboutxiaoniao/goright.png)no-repeat;
+	background-position: -58px 0px;
+	position: absolute;
+	top: 50%;
+	margin-top: -37px;
+	right: 0px;
+	display: none;
+	z-index: 999;
+}
+.gaishu-btn2:hover{
+	background-position: 0px 0px;
+}
+.gaishu-inner:hover .gaishu-btn1{
+	display: block;
+}
+.gaishu-inner:hover .gaishu-btn2{
+	display: block;
+}
+/* 翡翠掌学对企业的价值 */
+.value{
+	background: #221236;
+}
+.value-txt{
+	display: block;
+	width: 475px;
+	height: 56px;
+	font-size: 46.83px;
+	color: rgb( 255, 255, 255 );
+	padding-top: 70px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.value-box{
+	width: 996px;
+	height: 410px;
+	margin: 50px auto;
+	position: relative;
+}
+.value-box1{
+	width: 835px;
+	height: 338px;
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	margin-left: -427px;
+}
+.value-box1 li{
+	width: 398px;
+	height: 110px;
+	float: left;
+	margin-left: 39px;
+	margin-top: 5px;
+}
+.value-box1 li:nth-child(1){
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.value-box1 li:nth-child(2){
+	margin-top: 0px;
+}
+.value-box1 li:nth-child(3){
+	margin-left: 0px;
+}
+.value-box1 li:nth-child(5){
+	margin-left: 0px;
+}
+.value-number{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	opacity: 0.4;
+	line-height: 75px;
+	text-align: center;
+	color: rgb( 254, 254, 255 );
+	font-size: 18px;
+	font-family: "Arial";
+	float: left;
+	margin-top: 10px;
+}
+.value-number-txt{
+	width: 300px;
+	height: 75px;
+	float: right;
+	margin-top: 20px;
+}
+.value-number-p {
+  font-size: 18px;
+  font-family: "STKaiti";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.333;
+}
+.value-border li:nth-child(1){
+	width: 20px;
+	height: 20px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_11.png)no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.value-box:hover .value-border li:nth-child(1){
+	background: url(../img/aboutxiaoniao/jiazhi_border_12.png)no-repeat;
+}
+.value-border li:nth-child(2){
+	width: 20px;
+	height: 20px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_21.png)no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.value-box:hover .value-border li:nth-child(2){
+	background: url(../img/aboutxiaoniao/jiazhi_border_22.png)no-repeat;
+}
+.value-border li:nth-child(3){
+	width: 20px;
+	height: 20px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_31.png)no-repeat;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.value-box:hover .value-border li:nth-child(3){
+	background: url(../img/aboutxiaoniao/jiazhi_border_32.png)no-repeat;
+}
+.value-border li:nth-child(4){
+	width: 20px;
+	height: 20px;
+	background: url(../img/aboutxiaoniao/jiazhi_border_41.png)no-repeat;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.value-box:hover .value-border li:nth-child(4){
+	background: url(../img/aboutxiaoniao/jiazhi_border_42.png)no-repeat;
+}
+/* 翡翠掌云 */
+.feicui{
+	background: #f1f2f6;
+	padding-top: 50px;
+}
+.feicui-box{
+	width: 868px;
+	height: 430px;
+	margin: 10px auto;
+}
+.feicui-txt{
+	float: left;
+}
+.feicui-title{
+	display: block;
+	width: 190px;
+	height: 56px;
+	font-size: 46.83px;
+	color: rgb( 34, 18, 54 );
+	margin: 0 auto;
+}
+.feicui-txt1{
+	width: 868px;
+	height: 365px;
+	overflow: hidden;
+}
+.feicui-txt-big{
+	width: 1736px;
+	height: 365px;
+	transition: 1s;
+}
+.feicui-txt-line{
+	width: 868px;
+	height: 365px;
+	background: url(../images/aboutxiaoniao/xuxian_bg.png);
+	float: left;
+}
+.feicui-txt-line p{
+  font-size: 16px;
+  color: rgb( 113, 112, 116 );
+  line-height: 2.375;
+}
+.feicui-p{
+	text-indent: 2em;
+}
+.feicui-p1{
+	margin-top: 20px;
+}
+.feicui-btn{
+	width: 218px;
+	height: 9px;
+	margin: 30px auto;
+}
+.feicui-btn li{
+		float: left;
+		margin-right: 30px;
+		background-color: rgb( 172, 172, 172 );
+    width: 79px;
+    height: 9px;
+		border-radius: 4px;
+}
+.feicui-btn .active{
+	background-color: rgb( 0, 111, 214 );
+	overflow: hidden;
+	transition: 1s;
+}
+.feicui-bottom{
+	width: 30px;
+	height: 90px;
+	padding-top: 20px;
+	margin: 20px auto;
+}
+/* App下载 */
+.app{
+	width: 100%;
+	background: white url(../img/aboutxiaoniao/app&contacts_bg.gif)no-repeat top center;
+	background-size: cover;
+}
+.app-ewm{
+	width: 520px;
+	height: 513px;
+	overflow: hidden;
+}
+.app-box{
+	width: 317px;
+	height: 350px;
+	margin: 60px auto;
+	position: relative;
+}
+.app-p{
+	width: 220px;
+	height: 25px;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -110px;
+	font-size: 17.405px;
+	color: rgb( 255, 255, 255 );
+}
+.app-pic{
+	width: 317px;
+	height: 315px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -158px;
+}
+.app-title{
+	width: 200px;
+	height: 50px;
+	font-size: 46.83px;
+	color: rgb( 255, 255, 255 );
+	position: absolute;
+	top: 150px;
+	left: 50%;
+}
+.kefu{
+	width: 550px;
+	height: 265px;
+	position: absolute;
+	top: 350px;
+	left: 50%;
+}
+.kefu-meizi{
+	font-size: 23.207px;
+	color: rgb( 25, 25, 25 );
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.app-line{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.app-ul li{
+	margin-left: 20px;
+	font-size: 17.405px;
+	color: rgb( 25, 25, 25 );
+	line-height: 1.379;
+	margin-top: 10px;
+
+}
+
